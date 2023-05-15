@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "deliveries" ALTER COLUMN "end_at" DROP DEFAULT,
+ALTER COLUMN "end_at" SET DATA TYPE TIMESTAMP(3);
